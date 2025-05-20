@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><span>Ogtech</span> Web Design</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="services.html" class="current">Services</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="subscribe-set">
+      <div class="subscribe">
+        <h3>Subscribe To Our Newsletter</h3>
+        <div class="newsletter">
+          <form>
+            <input type="email" placeholder="Enter Email" required />
+            <button onclick="isSubscribed()" class="js-subscribed-button">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="services">
+        <div class="services-list">
+          <section>
+            <h3>Services</h3>
+            <ul>
+              <li>
+                <h3>Website Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                  adipisci modi voluptatum magnam officia quia corrupti repellat
+                  debitis cumque atque iste animi fugiat accusamus quis amet,
+                  libero, ullam quod consectetur.
+                </p>
+                <p>Pricing:$1000-$3000</p>
+              </li>
+              <li>
+                <h3>Website Maintenance</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas
+                  suscipit, sunt labore, magnam dolorem molestiae dicta laborum
+                  esse temporibus est exercitationem debitis aspernatur sint
+                  necessitatibus. Eligendi doloribus aliquam officia pariatur!
+                </p>
+                <p>Pricing:$250 per month</p>
+              </li>
+              <li>
+                <h3>Website Hosting</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Veritatis quasi iusto aperiam, repellat quo, est nesciunt eos
+                  corporis deserunt modi, voluptatem iure dicta! Est quas error
+                  maiores, reiciendis quam recusandae!
+                </p>
+                <p>Pricing:$25 per month</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="quote">
+          <section>
+            <h3>Get A Quote</h3>
+            <form>
+              <label for="name"> Name </label><br />
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                required
+              /><br />
+              <label for="email">Email</label><br />
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                required
+              /><br />
+              <label for="message">Message</label><br />
+              <textarea
+                name=""
+                id="message"
+                cols="30px"
+                rows=""
+                placeholder="Message"
+              ></textarea
+              ><br />
+              <button>Send</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Ogtech Web Design Copyright &copy; 2019</p>
+    </footer>
+    <script src="script/script.js"></script>
+  </body>
+</html>
